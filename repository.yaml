@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Example Home Assistant add-on repository
-url: 'https://github.com/home-assistant/addons-example'
+name: Home Assistant S1 Panel add-on repository
+url: 'https://github.com/andrey-reshetnikov/s1panel'
 maintainer: Awesome Maintainer <awesome@example.com>
