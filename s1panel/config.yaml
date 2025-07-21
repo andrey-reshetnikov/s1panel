@@ -1,7 +1,7 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: S1 Panel add-on
 version: "1.0.0"
-slug: example
+slug: s1panel
 description: S1 Panel add-on
 url: "https://github.com/andrey-reshetnikov/s1panel/tree/main/s1panel"
 arch:
@@ -17,12 +17,13 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "ghcr.io/home-assistant/{arch}-s1panel"
+image: "ghcr.io/andrey-reshetnikov/{arch}-s1panel"
 webui: "http://[HOST]:[PORT:8686]"
 ports:
   8686/tcp: 8686
+ports_description:
+  8686/tcp: Dashboard
 devices:
-  /dev/ttyUSB0
+  - /dev/ttyUSB0
 full_access: true
-usb: true
-uart: true
+
