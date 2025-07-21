@@ -25,5 +25,5 @@ ports_description:
   8686/tcp: Dashboard
 devices:
   - /dev/ttyUSB0
-full_access: true
+
 
