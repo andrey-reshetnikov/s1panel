@@ -66,7 +66,7 @@ RUN npm run build
 
 
 # copy one more theme to container and local config
-COPY ./config.json /acemagic/s1panel
+COPY ./s1panel-config.json /acemagic/s1panel/config.json
 ADD ./themes/theme1 /acemagic/s1panel/themes/theme1
 
 expose 8686
