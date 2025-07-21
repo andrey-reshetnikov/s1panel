@@ -18,3 +18,11 @@ options:
 schema:
   message: "str?"
 image: "ghcr.io/home-assistant/{arch}-s1panel"
+webui: "http://[HOST]:[PORT:8686]"
+ports:
+  8686/tcp: 8686
+devices:
+  /dev/ttyUSB0
+full_access: true
+usb: true
+uart: true
