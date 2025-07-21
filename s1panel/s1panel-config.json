@@ -40,21 +40,21 @@
       {
          "module": "sensors/network.js",
          "config": {
-            "interface": "wlp3s0",
+            "interface": "wlp2s0",
             "max_points": 300
          }
       },
       {
          "module": "sensors/network.js",
          "config": {
-            "interface": "enp2s0",
+            "interface": "enp3s0",
             "max_points": 300
          }
       },
       {
          "module": "sensors/network.js",
          "config": {
-            "interface": "enp4s0",
+            "interface": "enp1s0",
             "max_points": 300
          }
       },
@@ -75,8 +75,8 @@
       {
          "module": "sensors/weather.js",
          "config": {
-            "name": "Moscow",
-            "country": "RU",
+            "name": "denver",
+            "country": "us",
             "imperial": false,
             "forecast": 1
          }

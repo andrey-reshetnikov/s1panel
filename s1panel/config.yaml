@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: S1 Panel add-on
-version: "1.0.0"
+version: "1.0.1"
 slug: s1panel
 description: S1 Panel add-on
 url: "https://github.com/andrey-reshetnikov/s1panel/tree/main/s1panel"
@@ -16,6 +16,7 @@ map:
 options:
   message: "This is test..."
 schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
   message: "str?"
 image: "ghcr.io/andrey-reshetnikov/{arch}-s1panel"
 webui: "http://[HOST]:[PORT:8686]"
