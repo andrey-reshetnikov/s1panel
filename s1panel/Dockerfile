@@ -72,3 +72,8 @@ ADD ./themes/theme1 /acemagic/s1panel/themes/theme1
 expose 8686
 WORKDIR /acemagic/s1panel
 ENTRYPOINT node main.js
+
+LABEL \
+  io.hass.version="VERSION" \
+  io.hass.type="addon" \
+  io.hass.arch="armhf|aarch64|i386|amd64"
