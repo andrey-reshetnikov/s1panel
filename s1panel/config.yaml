@@ -5,11 +5,11 @@ slug: example
 description: S1 Panel add-on
 url: "https://github.com/andrey-reshetnikov/s1panel/tree/main/s1panel"
 arch:
-  - armhf
-  - armv7
-  - aarch64
+#  - armhf
+#  - armv7
+#  - aarch64
   - amd64
-  - i386
+#  - i386
 init: false
 map:
   - share:rw
